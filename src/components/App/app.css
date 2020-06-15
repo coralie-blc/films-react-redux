@@ -1,0 +1,246 @@
+#app {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  padding-bottom: 2em;
+  border-radius: 15px;
+  background-color: rgb(236, 233, 233);
+}
+
+#root {
+  background-color: rgb(236, 233, 233);
+  width: 100vw;
+  height: 100vh!important;
+  margin-top: 0!important;
+  position: absolute;
+  top: 0em;}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px grey;
+
+}
+
+.title_list_film {
+  margin: 3em 0 1em 0;
+  padding-top: 1em;
+}
+
+.list-films {
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-film {
+  width: 2em;
+  margin: 2em;
+  justify-content: center;
+}
+
+.card-film > img {
+  text-align: center;
+}
+
+.fiche-film {
+  width: 60%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 2em;
+  box-shadow: 10px 5px 5px grey;
+  position: relative;
+  background-color: white;
+}
+
+.fiche-film > div {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.id-film {
+  text-align: right;
+  font-size: .8em;
+  margin-right: 1em;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.accueil-button {
+  margin: 1em 0 0 1em;
+  background-color: lightgreen;
+  width: fit-content;
+  padding: .7em;
+  border-radius: 10px;
+}
+
+.list-films {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-filmm > div {
+  margin: 2em;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 1em;
+  box-shadow: 10px 5px 5px grey;
+  width: 12em;
+  height: 14em;
+  text-align: center;
+  padding-top: 1em;
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card-title {
+  font-weight: bold;
+  margin: 1em auto;
+}
+
+
+.img-list {
+  width: 45%;
+}
+
+.poster {
+  width: 55%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.pagination > li {
+  margin: 0 .5em;
+  cursor: pointer;;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.look {
+	padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	bottom: .5em;
+	display: none;
+}
+
+.card:hover .look {
+	display: block;
+}
+
+
+.film-title-details {
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 0em;
+  left: -3em;
+}
+
+.nav {
+  width: 100vh;
+}
+
+.navbar {
+  margin: 2em auto;
+}
+
+.search-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result {
+  width: 100%;
+}
+
+.card-search-film {
+  margin: auto;
+}
+
+.id-currentFilm {
+  text-align: right;
+}
+
+/* .card-film {
+  position: relative;
+} */
+
+form > p,
+form > input {
+  text-align: center;  
+}
+
+form > p {
+  font-size: .8em;
+  font-style: italic;  
+}
+
+.fiche-search-film {
+  width: 80%;
+  margin: 2em auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 2em;
+  box-shadow: 10px 5px 5px grey;
+  position: relative;
+  background-color: white;
+  align-items: center;
+  position: relative
+}
+
+.poster-search-film {
+  width: 100%;
+}
+
+.title-search-film {
+  position: absolute;
+  top: 0em;
+  right: -9em;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(45deg);
+  width: 20em;
+}
+
+.id {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+.id > p {
+  font-size: .9em;
+}
+
+.film-search-over-id {
+  margin: 0 2em;
+}
